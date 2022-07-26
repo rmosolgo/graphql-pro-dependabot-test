@@ -11,7 +11,7 @@ updates:
     schedule:
       interval: "weekly"
 registries:
-  graphql-pro:
+  graphql-pro-and-enterprise:
     type: rubygems-server
     url: https://gems.graphql.pro
     username: ${{secrets.GRAPHQL_PRO_USERNAME}}
