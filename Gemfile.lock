@@ -1,15 +1,16 @@
 GEM
   specs:
-    activemodel (7.0.2.2)
-      activesupport (= 7.0.2.2)
-    activerecord (7.0.2.2)
-      activemodel (= 7.0.2.2)
-      activesupport (= 7.0.2.2)
-    activesupport (7.0.2.2)
+    activemodel (6.1.4.4)
+      activesupport (= 6.1.4.4)
+    activerecord (6.1.4.4)
+      activemodel (= 6.1.4.4)
+      activesupport (= 6.1.4.4)
+    activesupport (6.1.4.4)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
+      zeitwerk (~> 2.3)
     concurrent-ruby (1.1.10)
     graphql (2.0.7)
     i18n (1.10.0)
@@ -17,6 +18,7 @@ GEM
     minitest (5.15.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
+    zeitwerk (2.5.4)
 
 GEM
   remote: https://gems.graphql.pro/
@@ -24,16 +26,16 @@ GEM
     graphql-enterprise (1.1.5)
       graphql (>= 1.13.0)
       graphql-pro (>= 1.19.0)
-    graphql-pro (1.22.1)
+    graphql-pro (1.20.0)
       graphql (>= 1.7.5)
 
 PLATFORMS
   x86_64-darwin-19
 
 DEPENDENCIES
-  activerecord
+  activerecord (~> 6.0)
   graphql-enterprise!
-  graphql-pro!
+  graphql-pro (= 1.20.0)!
 
 BUNDLED WITH
    2.3.8
