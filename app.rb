@@ -1,2 +1,2 @@
 require "graphql-pro"
-puts "hello world"
+puts "hello world!"
